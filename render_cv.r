@@ -6,6 +6,7 @@
 # for the HTML and PDF rendering. This exercise is left to the reader.
 
 # Knit the HTML version
+setwd("~/Project/datadrivencv-cjwong")
 rmarkdown::render("cv.rmd",
                   params = list(pdf_mode = FALSE),
                   output_file = "cv.html")

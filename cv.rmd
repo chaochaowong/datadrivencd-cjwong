@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 )
 
 library(magrittr) # For the pipe
-source(file.path("/Users/cwon2/Documents/resume-2022", 
+source(file.path("/Users/cwon2/Project/datadrivencv-cjwong", 
                  "cv_printing_functions.r"))
 # Read in all data and initialize a CV printer object
 CV <- create_CV_object(
